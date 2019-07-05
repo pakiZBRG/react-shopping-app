@@ -1,0 +1,72 @@
+:root{
+  --mainBlue: rgb(1, 1, 46);
+  --lightBlue: rgb(1, 120, 255);
+  --mainWhite: #f3f3f3;
+  --mainDark: #2f2f2f;
+  --mainRed: crimson;
+}
+
+*{
+  letter-spacing: -.15px;
+}
+
+body{
+  font-family: 'DM Sans' !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Ubuntu';
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  margin:20px;
+  font-weight: bold;
+}
+
+.text-red {color: var(--mainRed);}
+
+.text-bright {color: var(--lightBlue);}
+
+.modal{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  background: #2f2f2f
+}
+
+.checked {
+  color: rgb(129, 214, 0);
+  border: 2px solid rgb(129, 214, 0);
+  border-radius: 50%;
+  padding: 3px;
+  margin-bottom: 10px;
+  font-size: 1.35rem;
+}
+
+
+.btn-black{
+  background: transparent;
+  font-size: 2rem;
+  color: var(--mainDark);
+  border: 2px solid var(--mainDark) !important;
+  border-radius: 0 !important;
+  cursor:pointer;
+}
+
+.btn-black:hover{
+  background: var(--mainDark);
+  color: #f3f3f3 !important;
+}
+
+.bordera{
+  border-top: 2px solid #dcdcdc;
+  padding-top: 25px;
+}
+
+.size{
+  margin-top: 5px;
+  font-size: 1.5rem;
+  color: crimson;
+}
