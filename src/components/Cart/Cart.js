@@ -1,5 +1,6 @@
 import React from 'react'
 import Title from '../Title';
+
 import CartColumns from './CartColumns';
 import EmptyCart from './EmptyCart';
 import CartList from './CartList';
@@ -19,7 +20,7 @@ class Cart extends React.Component {
                            <Title name='your' title='cart'/>
                            <CartColumns value={value}/>
                            <CartList value={value}/>
-                           <CartTotals value={value}/>
+                           <CartTotals value={value} history={this.props.history}/>
                         </React.Fragment>
                   )} else{
                      return(<EmptyCart />)
